@@ -4,9 +4,11 @@ Full-stack application with Rails backend and React frontend.
 
 ## Prerequisites
 
-- Ruby 3.4.8+ (with Rails 8.1.2+)
-- Node.js 18+ (with npm)
-- SQLite3
+-Ruby 3.4.8 (2025-12-17 revision 995b59f666) +PRISM [arm64-darwin25]
+-Rails 8.1.2
+-Node 20.20.x
+-npm 10.8.2
+
 
 ## Quick Start
 
