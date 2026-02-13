@@ -5,10 +5,52 @@ Full-stack application with Rails backend and React frontend.
 ## Prerequisites
 
 - Ruby 3.4.8 (2025-12-17 revision 995b59f666) +PRISM [arm64-darwin25]
-
 - Rails 8.1.2
 - Node 20.20.x
 - npm 10.8.2
+
+## Setting-Up (on macOS) 
+### Step1 : Install Ruby Version Manager 
+```bash 
+brew install rbenv ruby-build
+rbenv -init
+rbenv --version      
+```
+
+### Step2 : Install Ruby 
+```bash
+# you can go ahead with any version but this is a stable version and compatible with Rails 7.x.x +
+rbenv install 3.4.2
+rbenv global 3.4.8
+
+#check using
+ruby -v
+```
+
+### Step3 : Install Bundler 
+```bash
+# It is a library manager , or gems in ruby
+gem install bundler
+```
+
+### Step4 : Install Rails
+```bash
+gem install rails -v "~> 8.1"
+rails -v
+
+# to run a rails server
+rails s 
+```
+
+#### Step 5 : Frontend Setup
+
+```bash
+# Install npm packages
+npm install
+
+# Start development server
+npm run dev
+```
 
 
 ## Quick Start
@@ -22,34 +64,6 @@ cd assignment-01
 
 # Start both services
 ./scripts/start-all.sh
-```
-
-### Option 2: Manual setup
-
-#### Backend Setup
-
-```bash
-# Navigate to backend directory
-cd backend
-
-# Install gems
-bundle install
-
-# Start Rails server
-rails server -p 3000
-```
-
-#### Frontend Setup
-
-```bash
-# Navigate to frontend directory (in a new terminal)
-cd frontend
-
-# Install npm packages
-npm install
-
-# Start development server
-npm run dev
 ```
 
 ## Access Points
