@@ -12,7 +12,7 @@ Full-stack application with Rails backend and React frontend.
 ## Setting-Up (on macOS) 
 ### Step1 : Install Ruby Version Manager 
 ```bash 
-brew install rbenv ruby-build
+brew install openssl@3 libyaml gmp rust
 rbenv -init
 rbenv --version      
 ```
@@ -20,7 +20,6 @@ rbenv --version
 ### Step2 : Install Ruby 
 ```bash
 # you can go ahead with any version but this is a stable version and compatible with Rails 7.x.x +
-rbenv install 3.4.2
 rbenv global 3.4.8
 
 #check using
