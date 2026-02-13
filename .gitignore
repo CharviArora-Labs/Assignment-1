@@ -1,0 +1,3 @@
+scripts/backend.pid
+scripts/frontend.pid
+scripts/logs/*.log
